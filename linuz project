@@ -1,0 +1,91 @@
+		task 1
+
+1.	input: ls
+	output:Desktop              Music      results.md                 Videos
+Documents            Pictures   snap                       workspace
+Downloads            practice   tech-department
+examples.desktop     Public     Templates
+git-basic-exercises  resuls.md  this-will-be-another-repo
+
+2.	input :pwd
+	output: /home/cphyso
+This shows me exactly where I am working
+
+3.	input :mkdir workspace	>> cd workspace  >>ls
+	output: I see an empty folder
+
+4. 	input : touch README.md
+	output: .md file created in workspace directory
+
+5. 	input : cp README.md CHANGELOG.md
+	output: new .md file named CHANGELOG.md
+
+
+		task 2
+
+		Task 3
+
+
+1. 	input : touch umuzi.md
+   	touch recruits.md
+   	touch cohort.md
+
+2. 	input :nano umuzi.md : 
+	output :Opens text editor and write content on the file, Ctrl O, enter and Ctrl X.
+ 	nano recruits.md
+ 	nano cohort.md
+
+3. 	input : cat umuzi.md recruits.md cohort.md
+
+4. 	input : touch summary.md
+     cat umuzi.md recruits.md cohort.md > summary.md
+
+5.	input : cat>> summary.md
+    
+
+			THE END
+
+ 		Task 4
+
+1.	input : locate umuzi.md
+2. 	find /home/Cphyso -type f -name umuzi.md > search_result.md
+
+		Task 5
+
+1. cd Documents, touch pad.md
+2. cd ~/Desktop, mkdir work
+3. cd Documents, cp pad.md pad_copy.md, mv pad_copy.md /~/Cphyso/Desktop
+4. locate updatedb
+5. cd – (went back to Desktop)
+6. locate pad_copy.md
+
+		Task 6
+
+1. 	input : find -type f -name "*.pdf"
+	output : ./Downloads/Terminal Book.pdf
+./Downloads/Express_Linux_Tutorial_XSEDE-Version2.pdf
+./Downloads/Human Intelligence - MUB.docx.pdf
+./Downloads/Linux_for_beginners.pdf
+./tech-department/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/adivorciarsetoca00cape.pdf
+./tech-department/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.en.files/Carroll_AliceAuPaysDesMerveilles.pdf
+./tech-department/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/adivorciarsetoca00cape.pdf
+./tech-department/themes/hugo-theme-learn/exampleSite/content/shortcodes/attachments.fr.files/Carroll_AliceAuPaysDesMerveilles.pdf
+./Desktop/Id_doc_siphesihle.pdf
+./Desktop/Siphesihle_Tole_CV.pdf
+./Desktop/Siphesihle-Tole.pdf
+./Desktop/Matric statement.pdf
+
+2. 	input : find -type f -name "*.pdf" > summary.md
+	output : pdf moved to new folder
+
+3.	input : find -mtime- -ls/-print 
+
+		Task 7
+
+1.	input : nano  my_bio.md
+	output: open text editor for file mybio
+
+2. mkdir my_files.md, mv my_bio.md home/Cphyso/my_files
+
+
+
